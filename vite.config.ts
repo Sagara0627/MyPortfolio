@@ -10,6 +10,9 @@ export default defineConfig({
     vue(),
     vueDevTools(),
   ],
+  build: {
+    outDir: 'docs'
+  },
   base: process.env.NODE_ENV === 'production' ? '/MyPortfolio/' : '/',
   resolve: {
     alias: {
