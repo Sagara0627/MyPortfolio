@@ -1,9 +1,15 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import GlobalHeader from '@/components/templates/GlobalHeader.vue';
 </script>
 
 <template>
-  <RouterView />
+  <v-app>
+    <GlobalHeader />
+    <v-main>
+      <RouterView />
+    </v-main>
+  </v-app>
 </template>
 
 <style scoped>

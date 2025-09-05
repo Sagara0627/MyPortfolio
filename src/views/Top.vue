@@ -1,7 +1,11 @@
 <script setup lang="ts">
-import GlobalHeader from '@/components/GlobalHeader.vue';
+import Profile from '@/components/templates/Profile.vue';
+import Skill from '@/components/templates/Skill.vue';
+import Work from '@/components/templates/Work.vue';
 </script>
 
 <template>
-  <GlobalHeader />
+  <Profile />
+  <Skill />
+  <Work />
 </template>
