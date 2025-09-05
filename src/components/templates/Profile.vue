@@ -9,9 +9,3 @@
     </v-card-text>
   </v-card>
 </template>
-
-<style scoped>
-.h-100vh {
-  height: 100vh;
-}
-</style>

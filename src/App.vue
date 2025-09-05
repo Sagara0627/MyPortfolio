@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import GlobalHeader from '@/components/templates/GlobalHeader.vue';
+import Footer from '@/components/templates/Footer.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import GlobalHeader from '@/components/templates/GlobalHeader.vue';
     <v-main>
       <RouterView />
     </v-main>
+    <Footer />
   </v-app>
 </template>
 

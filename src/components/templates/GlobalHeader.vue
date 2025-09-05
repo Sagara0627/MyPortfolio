@@ -6,5 +6,8 @@
     <v-spacer />
     <v-btn text>Profile</v-btn>
     <v-btn text>Skills</v-btn>
+    <v-btn text>Works</v-btn>
+    <v-btn text>Histories</v-btn>
+    <v-btn text>Links</v-btn>
   </v-app-bar>
 </template>
